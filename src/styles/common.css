@@ -1,0 +1,185 @@
+.app {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.TopBar {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 277px;
+
+    background-color: white;
+    height: 81px;
+    border-bottom: 3px solid #CA3C3D;
+}
+
+.logo {
+    width: 201px;
+    height: 80px;
+}
+
+.reactMarkdownTxt {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    color: #999;
+    line-height: 30px;
+}
+
+.blogContentTxt {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    color: #999;
+    line-height: 30px;
+}
+
+.blogContentTxt em {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    color: #999;
+    line-height: 30px;
+    padding-left: 20px;
+    border-left: 7px solid #CA3C3D;
+}
+
+.mobileBlogContentTxt {
+    width: 90%;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    color: #999;
+    line-height: 30px;
+}
+
+.mobileBlogContentTxt em {
+    width: 90%;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    color: #999;
+    line-height: 30px;
+    padding-left: 20px;
+    border-left: 7px solid #CA3C3D;
+}
+
+.mobileBlogContentTxt img {
+    width: 100%;
+}
+
+.updatesContentTxt {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+    line-height: 30px;
+}
+
+.aboutWellnessTxt {
+    width: 85%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #999;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.mobileAboutWellnessTxt {
+    width: 95%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #999;
+    text-align: center;
+}
+
+.academyPlaceTxt {
+    width: 70%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #999;
+    margin-top: 15px;
+}
+
+.mobileAcademyPlaceTxt {
+    width: 90%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #999;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.instructionTxt {
+    padding: 20px 30px;
+    background-color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 500;
+    color: #1D1D1D;
+}
+
+.ingredientTxt {
+    padding: 20px 30px;
+    background-color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #666;
+}
+
+.howItWorksTxt {
+    max-width: 90%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #999;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.mobileHowItWorksTxt {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #999;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.learnMoreTxt {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    color: #999;
+    line-height: 30px;
+}
+
+.eatToHealDescriptionTxt {
+    color: #1D1D1D;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
